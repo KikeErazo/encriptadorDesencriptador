@@ -181,17 +181,16 @@ main {
         }
     
     .encriptar{
-        margin-left: -20%;
+        margin-left: -10%;
     } 
     
-    .copiar{
-        margin-left: 15%;
-    }
-
     .desencriptar{
         margin-left: 10%;
     }
-
+    
+    .copiar{
+        margin-left: 5%;
+    }
     .titulo{
         width: 100%;
     }
