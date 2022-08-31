@@ -175,17 +175,17 @@ main {
     }
 
     .input-texto, .mensaje{
-        margin-left: -20%;
+        margin-left: -5%;
         width: 90%;
         height: 250px;
         }
     
     .encriptar{
-        margin-left: 0%;
+        margin-left: -20%;
     } 
     
     .copiar{
-        margin-left: 25%;
+        margin-left: 15%;
     }
 
     .desencriptar{
