@@ -1,0 +1,196 @@
+main {
+    display: flex;
+    margin-left: 20%;
+}
+
+.body {
+    position: relative;
+    margin-top: 10px;
+    margin-left: 2px;
+    background-color: #efeeff;
+}
+
+.titulo {
+    text-align: center;
+    border: 2px solid #2e518b;
+    font-size: 10px;
+    line-height: 1%;
+    font-family: 'Helvetica', sans-serif; 
+    background-color: #2e518b; 
+    color: #ffffff; 
+    border-radius: 30px;
+}
+
+.titulo:hover{
+    border-color:#ffffff;
+}
+
+.titulo:active{
+    border-color:#2e518b;
+}
+
+.logo {
+    position: relative;
+    margin-top: 1px;
+    margin-left: 10px;
+}
+
+.input-texto {
+    display: inline-block;
+    vertical-align: top;
+    padding: 1px 2px;
+    text-align: center;
+    vertical-align: top;
+    box-sizing: border-box;
+    border: 2px solid #2e518b;
+    border-radius: 10px;
+}
+
+.input-texto:hover{
+    border-color:#ffffff;
+}
+
+.input-texto:active{
+    border-color:#2e518b;
+}
+
+.mensaje {
+    display: inline-block;
+    vertical-align: top;
+    padding: 1px 2px;
+    box-sizing: border-box;
+    border: 2px solid #2e518b;
+    border-radius: 10px;
+    background-image: url("imagenes/Muñeco.png");
+    background-repeat: no-repeat;
+    margin-left: 50%;
+}
+
+.mensaje {
+    display: inline-block;
+    text-align: center;
+}
+
+.mensaje:hover{
+    border-color:#ffffff;
+}
+
+.mensaje:active{
+    border-color:#2e518b;
+}
+
+.encriptar {
+    margin-top: 1px;
+    border: 1px solid #2e518b; /*anchura, estilo y color borde*/
+    padding: 10px; /*espacio alrededor texto*/
+    background-color: #2e518b; /*color botón*/
+    color: #ffffff; /*color texto*/
+    text-decoration: none; /*decoración texto*/
+    text-transform: uppercase; /*capitalización texto*/
+    font-family: 'Helvetica', sans-serif; /*tipografía texto*/
+    border-radius: 20px; /*bordes redondos*/
+    margin-left: 5%;
+}
+
+ .encriptar:hover{
+    border-color:#efeeff;
+}
+
+.encriptar:active{
+    border-color:#2e518b;
+}
+ 
+ .desencriptar {
+    position: relative;
+    margin-top: 1px;
+    border: 1px solid #2e518b; /*anchura, estilo y color borde*/
+    padding: 10px; /*espacio alrededor texto*/
+    background-color: #2e518b; /*color botón*/
+    color: #ffffff; /*color texto*/
+    text-decoration: none; /*decoración texto*/
+    text-transform: uppercase; /*capitalización texto*/
+    font-family: 'Helvetica', sans-serif; /*tipografía texto*/
+    border-radius: 30px; /*bordes redondos*/
+    margin-left: 20%;
+}
+
+ .desencriptar:hover{
+    border-color:#efeeff;
+}
+
+.desencriptar:active{
+    border-color:#2e518b;
+}
+
+.copiar {
+    position: relative;
+    margin-top: 1px;
+    border: 1px solid #2e518b; /*anchura, estilo y color borde*/
+    padding: 10px; /*espacio alrededor texto*/
+    background-color: #2e518b; /*color botón*/
+    color: #ffffff; /*color texto*/
+    text-decoration: none; /*decoración texto*/
+    text-transform: uppercase; /*capitalización texto*/
+    font-family: 'Helvetica', sans-serif; /*tipografía texto*/
+    border-radius: 30px; /*bordes redondos*/
+    margin-left: 87%;
+}
+
+.copiar:hover{
+    border-color:#efeeff;
+}
+
+.copiar:active{
+    border-color:#2e518b;
+}
+
+.contactenos {
+    margin-top: 3px;
+    text-align: center;
+    border: 2px solid #2e518b;
+    padding: 3px; 
+    background-color: #2e518b;
+    color: #ffffff; /*color texto*/
+    text-decoration: none; /*decoración texto*/
+    text-transform: uppercase; /*capitalización texto*/
+    font-family: 'Helvetica', sans-serif; /*tipografía texto*/
+    border-radius: 20px; /*bordes redondos*/
+}
+
+.contactenos:hover{
+    border-color:#efeeff;
+}
+
+.contactenos:active{
+    border-color:#2e518b;
+}
+
+.footer{
+    text-align: center;
+}
+
+@media screen and (max-width: 380px){
+    main{
+        display:block;
+    }
+
+    .input-texto, .mensaje{
+        margin-left: -20%;
+        }
+    
+    .encriptar{
+        margin-left: -10%;
+    } 
+    
+    .copiar{
+        margin-left: 20%;
+    }
+
+    .desencriptar{
+        margin-left: 10%;
+    }
+
+    .titulo{
+        width: 101%;
+    }
+}

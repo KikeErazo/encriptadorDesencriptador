@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Encriptador-Desencriptador</title>
+</head>
+
+    <body>
+        <div class="titulo">
+            <button class="titulo" onclick="btnEncabezado()">
+                <h2>Home-Encriptador y Desencriptador de Texto
+                </h2>
+            </button>
+        </div>
+        <div class="body">
+    <header>
+        <div class="logo">
+            <img src="imagenes/Logo.png" alt="Logo de alura con la inicial de la letra a">
+        </div>   
+    </header>
+
+    <main>
+        <section>
+            <textarea class="input-texto" cols="40s" rows="20" placeholder="Ingrese el texto aquí"></textarea>
+            <div class="botones">
+                <button class="encriptar" onclick="btnEncriptar()">Encriptar</button>
+                <button class="desencriptar" onclick="btnDesencriptar()">Desencriptar</button>
+            </div>
+        </section>
+                    
+        <section>
+            <div class="info" id="info">
+            </div>                
+                <textarea class="mensaje" cols="40" rows="20"></textarea>             
+            <div class="botones2">
+                <button class="copiar" onclick="btnCopiar()">Copiar</button>
+            </div>
+        </section>
+        </main>
+
+            <div class="contactenos">
+                <button class="contactenos" onclick="btnContactenos()">© Contáctenos</button>
+            </div>
+
+        <script src="script.js"></script>
+
+            <div class="footer">
+                <footer>
+                    <h5>By Enrique Erazo v.0.2
+                    </h5>
+                </footer>
+            </div>
+    </body>
+</html>
