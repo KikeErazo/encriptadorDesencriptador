@@ -176,14 +176,16 @@ main {
 
     .input-texto, .mensaje{
         margin-left: -20%;
+        width: 90%;
+        height: 250px;
         }
     
     .encriptar{
-        margin-left: -10%;
+        margin-left: 0%;
     } 
     
     .copiar{
-        margin-left: 20%;
+        margin-left: 25%;
     }
 
     .desencriptar{
