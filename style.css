@@ -81,9 +81,9 @@ main {
 
 .encriptar {
     margin-top: 1px;
-    border: 1px solid #2e518b; /*anchura, estilo y color borde*/
-    padding: 10px; /*espacio alrededor texto*/
-    background-color: #2e518b; /*color botón*/
+    border: 1px solid #2e518b; 
+    padding: 10px; 
+    background-color: #2e518b;
     color: #ffffff; /*color texto*/
     text-decoration: none; /*decoración texto*/
     text-transform: uppercase; /*capitalización texto*/
